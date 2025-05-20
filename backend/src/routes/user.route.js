@@ -1,5 +1,5 @@
 import express from "express";
-import { protectRoute } from "../middleware/auth.middleware";
+import { protectRoute } from "../middleware/auth.middleware.js";
 import { getRecommendedUsers } from "../controllers/user.controller.js";
 import { getMyFriends } from "../controllers/user.controller.js";
 import { sendFriendRequest } from "../controllers/user.controller.js";
